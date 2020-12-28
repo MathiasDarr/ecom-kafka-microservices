@@ -19,11 +19,12 @@
 		<java.version>11</java.version>
 	</properties>
 	<modules>
+		<module>cassandra-services</module>
 <!--		<module>avro-schema</module>-->
 <!--		<module>orders-service</module>-->
 <!--		<module>inventory-service</module>-->
 <!--		<module>service-utilities</module>-->
-		<module>ride-services</module>
+<!--		<module>ride-services</module>-->
 	</modules>
 
 	<repositories>

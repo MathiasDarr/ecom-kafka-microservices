@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="order-service" />
-        <module name="inventory-service" />
+        <module name="ride-service" />
+        <module name="ride-receiver" />
         <module name="rides-avro-schema" />
       </profile>
     </annotationProcessing>
@@ -17,6 +17,8 @@
       <module name="microservices" target="11" />
       <module name="order-service" target="1.8" />
       <module name="orders-service" target="11" />
+      <module name="ride-receiver" target="11" />
+      <module name="ride-service" target="1.8" />
       <module name="rides-avro-schema" target="1.8" />
       <module name="rides-services" target="1.8" />
       <module name="service-utilities" target="11" />
@@ -29,6 +31,8 @@
       <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="orders-service" options="-parameters" />
+      <module name="ride-receiver" options="-parameters" />
+      <module name="ride-service" options="-parameters" />
       <module name="rides-avro-schema" options="-parameters" />
       <module name="service-utilities" options="-parameters" />
       <module name="services" options="-parameters" />

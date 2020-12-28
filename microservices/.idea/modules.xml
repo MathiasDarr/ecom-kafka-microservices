@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ride-services/inventory-service/inventory-service.iml" filepath="$PROJECT_DIR$/ride-services/inventory-service/inventory-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ride-services/order-service/order-service.iml" filepath="$PROJECT_DIR$/ride-services/order-service/order-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ride-services/avro-schema/rides-avro-schema.iml" filepath="$PROJECT_DIR$/ride-services/avro-schema/rides-avro-schema.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ride-services/rides-services.iml" filepath="$PROJECT_DIR$/ride-services/rides-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cassandra-services/inventory-service/ride-receiver.iml" filepath="$PROJECT_DIR$/cassandra-services/inventory-service/ride-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cassandra-services/order-service/ride-service.iml" filepath="$PROJECT_DIR$/cassandra-services/order-service/ride-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cassandra-services/avro-schema/rides-avro-schema.iml" filepath="$PROJECT_DIR$/cassandra-services/avro-schema/rides-avro-schema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cassandra-services/rides-services.iml" filepath="$PROJECT_DIR$/cassandra-services/rides-services.iml" />
     </modules>
   </component>
 </project>

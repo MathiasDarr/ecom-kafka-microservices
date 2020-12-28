@@ -18,6 +18,20 @@ services:
     command: ["-jar", "DynamoDBLocal.jar", "-sharedDb", "-inMemory"]
 
 
+  cassandra:
+    container_name: cassandra
+    image: 'bitnami/cassandra:3'
+    ports:
+      - '7000:7000'
+      - '9042:9042'
+
+    volumes:
+      - 'cassandra_data:/bitnami'
+    environment:
+      - CASSANDRA_SEEDS=cassandra
+      - CASSANDRA_PASSWORD_SEEDER=yes
+      - CASSANDRA_PASSWORD=cassandra
+
 
 #  postgres:
 #    image: debezium/example-postgres:${DEBEZIUM_VERSION}
@@ -98,7 +112,8 @@ services:
       CONNECT_PLUGIN_PATH: /usr/share/java,/usr/share/confluent-hub-components
 
 
-
 volumes:
+  cassandra_data:
+    driver: local
   postgres_data:
   data-volume: {}
