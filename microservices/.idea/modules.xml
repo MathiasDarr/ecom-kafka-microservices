@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ride-services/inventory-service/inventory-service.iml" filepath="$PROJECT_DIR$/ride-services/inventory-service/inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ride-services/order-service/order-service.iml" filepath="$PROJECT_DIR$/ride-services/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ride-services/avro-schema/rides-avro-schema.iml" filepath="$PROJECT_DIR$/ride-services/avro-schema/rides-avro-schema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ride-services/rides-services.iml" filepath="$PROJECT_DIR$/ride-services/rides-services.iml" />
+    </modules>
+  </component>
+</project>

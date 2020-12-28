@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-service" />
+        <module name="inventory-service" />
+        <module name="rides-avro-schema" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="avro-schema" target="1.8" />
+      <module name="inventory-service" target="11" />
+      <module name="microservices" target="11" />
+      <module name="order-service" target="1.8" />
+      <module name="orders-service" target="11" />
+      <module name="rides-avro-schema" target="1.8" />
+      <module name="rides-services" target="1.8" />
+      <module name="service-utilities" target="11" />
+      <module name="services" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="avro-schema" options="-parameters" />
+      <module name="inventory-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="orders-service" options="-parameters" />
+      <module name="rides-avro-schema" options="-parameters" />
+      <module name="service-utilities" options="-parameters" />
+      <module name="services" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+org/mddarr/products/AvroProduct$1.class
+org/mddarr/products/PurchaseEvent$1.class
+org/mddarr/products/PurchaseCount$Builder.class
+org/mddarr/orders/event/dto/ValidatedOrder$1.class
+org/mddarr/products/PurchaseEvent.class
+org/mddarr/orders/event/dto/ValidatedOrder$Builder.class
+org/mddarr/orders/event/dto/AvroOrder.class
+org/mddarr/products/PurchaseCount$1.class
+org/mddarr/orders/event/dto/AvroOrder$Builder.class
+org/mddarr/products/PurchaseEvent$Builder.class
+org/mddarr/orders/event/dto/AvroOrder$1.class
+org/mddarr/orders/event/dto/ValidatedOrder.class
+org/mddarr/products/PurchaseCount.class
+org/mddarr/products/AvroProduct.class
+org/mddarr/orders/event/dto/OrderState.class
+org/mddarr/products/AvroProduct$Builder.class

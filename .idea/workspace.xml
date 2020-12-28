@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a569412-a077-4946-b601-8240e821dcc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ecomm_microservices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/.idea/aws.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/inventory-service/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/inventory-service/inventory_service_template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/inventory-service/inventory_task_template.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/orders-service/orders_service_template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/vpc/deploy_vpc.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws/vpc/vpc_template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.idea/data_model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/copy_sam_archive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/orders/create_orders_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/orders/orders.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/orders/populate_orders_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/products/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/products/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/products/create_products_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/products/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/products/package.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/products/template.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/data/.~lock.mens-boots.csv#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/populate_dynamo_products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/scrape_rei_download_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/utils/data_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/rei_product_scraping/utils/upload_to_s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/seed_cassandra_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/seed_dynamo_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/utilities/cassandra_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/utilities/postgres_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_model/utilities/query_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_13_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_11_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_13_3_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_common_config_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_common_config_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_common_utils_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_common_utils_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_kafka_streams_avro_serde_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_confluent_monitoring_interceptors_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_undertow_undertow_core_2_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_undertow_undertow_servlet_2_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_2_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_jodah_typetools_0_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_avro_avro_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_avro_avro_compiler_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_connect_api_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_connect_json_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_test_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_2_13_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_2_13_test_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_clients_test_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_clients_test_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_streams_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_kafka_kafka_streams_test_utils_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_1_spec_1_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_lz4_lz4_java_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_rocksdb_rocksdbjni_5_18_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_scala_lang_modules_scala_collection_compat_2_13_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_13_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_scala_lang_scala_library_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_kafka_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_kafka_streams_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_test_jar_test_binder_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_integration_spring_integration_kafka_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_2_6_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_aop_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_beans_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_context_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_core_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_expression_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_orm_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_test_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_tx_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_tx_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/avro-schema.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/src/main/resources/orders.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/src/main/resources/products/product.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/src/main/resources/products/purchasecount.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/src/main/resources/products/purchaseevent.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/avro-schema-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/orders.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/orders/event/dto/AvroOrder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/orders/event/dto/AvroOrder$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/orders/event/dto/AvroOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/orders/event/dto/OrderState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/orders/event/dto/ValidatedOrder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/orders/event/dto/ValidatedOrder$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/orders/event/dto/ValidatedOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/AvroProduct$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/AvroProduct$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/AvroProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/PurchaseCount$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/PurchaseCount$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/PurchaseCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/PurchaseEvent$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/PurchaseEvent$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/org/mddarr/products/PurchaseEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/products/product.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/products/purchasecount.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/classes/products/purchaseevent.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/generated-sources/org/mddarr/orders/event/dto/AvroOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/generated-sources/org/mddarr/orders/event/dto/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/generated-sources/org/mddarr/orders/event/dto/ValidatedOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/generated-sources/org/mddarr/products/AvroProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/generated-sources/org/mddarr/products/PurchaseCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/generated-sources/org/mddarr/products/PurchaseEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/avro-schema/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/dynamo-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/caching/boot/SimpleCacheCustomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/config/APIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/config/DynamoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/controllers/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/dto/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/handler/APIFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/handler/CustomServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/test/java/org/mddarr/inventoryservice/AbstractIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/test/java/org/mddarr/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/inventory-service/src/test/java/org/mddarr/inventoryservice/ProductsServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/kafka-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/microservices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/OrdersServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/config/DynamoDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/controllers/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/dto/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/services/AvroOrdersProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/java/org/mddarr/ordersservice/services/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/test/java/org/mddarr/ordersservice/AbstractIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/orders-service/src/test/java/org/mddarr/ordersservice/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/avro-schema.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/rides-avro-schema.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/src/main/resources/Event3.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/src/main/resources/riderequest.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/Event3.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/org/mddarr/rides/event/dto/AvroRideRequest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/org/mddarr/rides/event/dto/AvroRideRequest$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/org/mddarr/rides/event/dto/AvroRideRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/org/mddarr/rides/event/dto/Event3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/org/mddarr/rides/event/dto/Event3$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/org/mddarr/rides/event/dto/Event3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/classes/riderequest.avsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/generated-sources/org/mddarr/rides/event/dto/AvroRideRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/generated-sources/org/mddarr/rides/event/dto/Event3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/avro-schema/target/rides-avro-schema-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/dispatch-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/src/main/java/org/mddarr/dispatchservice/ShowcaseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/src/test/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/target/classes/org/mddarr/dispatchservice/ShowcaseApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/target/dispatch-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/target/dispatch-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/dispatch-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/src/main/java/org/mddarr/ridereceiver/RideReceiverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/src/main/java/org/mddarr/ridereceiver/models/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/inventory-service/src/test/java/org/mddarr/ridereceiver/RideReceiverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/order-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/ShowcaseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/controllers/RideRequestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/event/MessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/interfaces/AvroRideRequestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/interfaces/RideRequestServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/models/entities/RideRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/models/requests/PostRideRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/repository/RideRequestRepostiory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/services/AvroRideRequestProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/java/org/mddarr/rideservice/services/RideRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/IntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/UatAbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/event/MessageProducerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/event/MessageReceiverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/mock/CustomKafkaAvroDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/mock/CustomKafkaAvroSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/src/test/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/ShowcaseApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/controllers/RideRequestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/event/MessageReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/interfaces/AvroRideRequestInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/interfaces/RideRequestServiceInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/models/entities/RideRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/models/requests/PostRideRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/repository/RideRequestRepostiory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/services/AvroRideRequestProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/classes/org/mddarr/rideservice/services/RideRequestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/ride-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/ride-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/org/mddarr/rideservice/IntegrationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/org/mddarr/rideservice/UatAbstractTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/org/mddarr/rideservice/event/MessageProducerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/org/mddarr/rideservice/event/MessageReceiverTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/org/mddarr/rideservice/mock/CustomKafkaAvroDeserializer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/org/mddarr/rideservice/mock/CustomKafkaAvroDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/order-service/target/test-classes/org/mddarr/rideservice/mock/CustomKafkaAvroSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/ride-receiver.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/ride-services.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/ride-services/rides-services.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/service-utilities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/src/main/java/org/mddarr/utils/DataUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/src/main/java/org/mddarr/utils/DynamoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/classes/org/mddarr/utils/DataUtilities.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/classes/org/mddarr/utils/DynamoUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/service-utilities/target/service-utilities-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/connect.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/cqlsh.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/install_connectors.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kafka/avro-consumer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kafka/connectors/debezium_source_connector.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kafka/console_consumer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kafka/create-topic.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kafka/listTopics.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kafka/post.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/kafka/producer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/prune.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/psql.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1mHG7MmgK6zh1MwL8M3QoDGopTd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_model" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_model" />
+      <recent name="$PROJECT_DIR$/data_model/data" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a569412-a077-4946-b601-8240e821dcc2" name="Default Changelist" comment="" />
+      <created>1609142935441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609142935441</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="812" y="317" width="424" height="484" key="FileChooserDialogImpl" timestamp="1609145780329">
+      <screen x="63" y="27" width="1857" height="1053" />
+    </state>
+    <state x="2694" y="297" width="424" height="484" key="FileChooserDialogImpl/63.27.1857.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1609142950498" />
+    <state x="812" y="317" key="FileChooserDialogImpl/63.27.1857.1053/1920.0.1920.1080@63.27.1857.1053" timestamp="1609145780329" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_model/seed_dynamo_database.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

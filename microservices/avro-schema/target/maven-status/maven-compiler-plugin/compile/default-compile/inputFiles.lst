@@ -1,0 +1,6 @@
+/data/mddarr/repositories/spring_kafka_microservices/microservices/avro-schema/target/generated-sources/org/mddarr/products/AvroProduct.java
+/data/mddarr/repositories/spring_kafka_microservices/microservices/avro-schema/target/generated-sources/org/mddarr/orders/event/dto/OrderState.java
+/data/mddarr/repositories/spring_kafka_microservices/microservices/avro-schema/target/generated-sources/org/mddarr/orders/event/dto/ValidatedOrder.java
+/data/mddarr/repositories/spring_kafka_microservices/microservices/avro-schema/target/generated-sources/org/mddarr/products/PurchaseCount.java
+/data/mddarr/repositories/spring_kafka_microservices/microservices/avro-schema/target/generated-sources/org/mddarr/products/PurchaseEvent.java
+/data/mddarr/repositories/spring_kafka_microservices/microservices/avro-schema/target/generated-sources/org/mddarr/orders/event/dto/AvroOrder.java
