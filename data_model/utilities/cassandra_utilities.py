@@ -21,4 +21,3 @@ def createKeySpace(keyspace_name, session):
         session.execute("CREATE KEYSPACE IF NOT EXISTS " + keyspace_name + " WITH REPLICATION =  { 'class' : 'SimpleStrategy', 'replication_factor' : 1 } AND durable_writes='true'")
     except Exception as e:
         print(e)
-

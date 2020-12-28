@@ -41,18 +41,6 @@ def populate_products():
 
 def populate_orders():
 
-    # create_orders_table = """CREATE TABLE IF NOT EXISTS orders(
-    #     orderID text,
-    #     customerID text,
-
-    #     # quantities list<int>
-    #     # order_status text,
-    #     PRIMARY KEY((orderID, customerID)));
-    # """
-    # dbsession.execute(create_orders_table)
-    #
-    # insert_trip_data_point = """INSERT INTO orders(orderID, customerID,products) VALUES(%s,%s,%s);"""
-
     create_orders_table = """CREATE TABLE IF NOT EXISTS orders(
         orderID text,
         customerID text,
@@ -75,14 +63,6 @@ def populate_orders():
             vendors = [q for q in row['vendors'][1:-1].split(',')]
 
             dbsession.execute(insert_trip_data_point, [row['orderID'], row['customerID'], quantities, products, vendors, row['order_status']]) #, float(row['total_price']))
-
-
-    # insert_trip_data_point = """INSERT INTO orders(orderID, customerID, products, vendors, order_status, quantities) VALUES(%s,%s,%s,%s, %s,%s, %s);"""
-    #
-    # with open(CSV_FILE, newline='') as csvfile:
-    #     reader = csv.DictReader(csvfile)
-    #     for row in reader:
-    #         dbsession.execute(insert_trip_data_point, [row['orderID'], row['customerID'], row['products'],row['vendors'],row['status'], row['quantities']])
 
 
 if __name__ == '__main__':

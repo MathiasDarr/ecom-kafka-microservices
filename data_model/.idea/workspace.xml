@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3105eeb7-bec1-4284-94ee-b137b72e7d47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aws/inventory-service/inventory_task_template.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitgnore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aws/inventory-service/inventory_service_template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../aws/inventory-service/inventory_service_template.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/.~lock.orders.csv#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_cassandra_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/seed_cassandra_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/cassandra_utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/cassandra_utilities.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../outdoor-recreation-sam" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,6 +67,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="446" width="426" height="486" key="FileChooserDialogImpl" timestamp="1606705265700">
