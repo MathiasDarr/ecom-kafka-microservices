@@ -20,28 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3105eeb7-bec1-4284-94ee-b137b72e7d47" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cassandra_udt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy_sam_archive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/create_orders_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/populate_orders_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/create_products_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/deploy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/package.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/template.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rei_product_scraping/data/.~lock.mens-boots.csv#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rei_product_scraping/populate_dynamo_products.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_dynamo_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/seed_dynamo_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/ride-receiver.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/ride-services.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/rides-services.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/service-utilities.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/service-utilities.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
