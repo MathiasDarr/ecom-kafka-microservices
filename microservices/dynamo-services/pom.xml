@@ -12,14 +12,16 @@
     </parent>
 
     <groupId>org.mddarr</groupId>
-    <artifactId>rides-services</artifactId>
+    <artifactId>dynamo-services</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     
     <modules>
-        <module>order-service</module>
-        <module>inventory-service</module>
+        <module>customer-orders-service</module>
+        <module>product-query-service</module>
+<!--        <module>service-utilities</module>-->
         <module>avro-schema</module>
+
     </modules>
     <repositories>
         <repository>

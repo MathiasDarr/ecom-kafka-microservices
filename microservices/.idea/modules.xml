@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dynamo-services/avro-schema/rides-avro-schema.iml" filepath="$PROJECT_DIR$/dynamo-services/avro-schema/rides-avro-schema.iml" />
       <module fileurl="file://$PROJECT_DIR$/cassandra-services/customer-orders-service/customer-orders-service.iml" filepath="$PROJECT_DIR$/cassandra-services/customer-orders-service/customer-orders-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamo-services/dynamo-services.iml" filepath="$PROJECT_DIR$/dynamo-services/dynamo-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamo-services/product-query-service/inventory-service.iml" filepath="$PROJECT_DIR$/dynamo-services/product-query-service/inventory-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cassandra-services/products-query-service/products-query-service.iml" filepath="$PROJECT_DIR$/cassandra-services/products-query-service/products-query-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cassandra-services/rides-services.iml" filepath="$PROJECT_DIR$/cassandra-services/rides-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamo-services/customer-orders-service/orders-service.iml" filepath="$PROJECT_DIR$/dynamo-services/customer-orders-service/orders-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamo-services/service-utilities/service-utilities.iml" filepath="$PROJECT_DIR$/dynamo-services/service-utilities/service-utilities.iml" />
     </modules>
   </component>
 </project>

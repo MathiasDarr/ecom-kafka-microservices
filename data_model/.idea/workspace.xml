@@ -20,8 +20,125 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3105eeb7-bec1-4284-94ee-b137b72e7d47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/seed_cassandra_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/seed_cassandra_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/cassandra_utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/cassandra_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/OrdersServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/config/DynamoDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/controllers/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/dto/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/services/AvroOrdersProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/java/org/mddarr/ordersservice/services/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/test/java/org/mddarr/ordersservice/AbstractIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/src/test/java/org/mddarr/ordersservice/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/dynamo-services.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/caching/boot/SimpleCacheCustomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/config/APIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/config/DynamoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/controllers/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/dto/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/handler/APIFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/handler/CustomServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/java/org/mddarr/inventoryservice/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/test/java/org/mddarr/inventoryservice/AbstractIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/test/java/org/mddarr/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/product-query-service/src/test/java/org/mddarr/inventoryservice/ProductsServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/service-utilities.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/src/main/java/org/mddarr/utils/DataUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/dynamo-services/service-utilities/src/main/java/org/mddarr/utils/DynamoUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/scripts/query_orders.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/populate_orders_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/populate_orders_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_dynamo_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/seed_dynamo_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/cassandra-services/rides-services.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/cassandra-services/cassandra-services.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/avro-schema/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/avro-schema/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/src/main/java/org/mddarr/ridereceiver/RideReceiverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/src/main/java/org/mddarr/ridereceiver/models/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/inventory-service/src/test/java/org/mddarr/ridereceiver/RideReceiverApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/order-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/ShowcaseApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/controllers/RideRequestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/event/MessageReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/interfaces/AvroRideRequestInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/interfaces/RideRequestServiceInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/models/entities/RideRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/models/requests/PostRideRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/repository/RideRequestRepostiory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/services/AvroRideRequestProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/java/org/mddarr/rideservice/services/RideRequestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/test/java/org/mddarr/rideservice/IntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/test/java/org/mddarr/rideservice/UatAbstractTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/test/java/org/mddarr/rideservice/event/MessageProducerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/test/java/org/mddarr/rideservice/event/MessageReceiverTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/test/java/org/mddarr/rideservice/mock/CustomKafkaAvroDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/test/java/org/mddarr/rideservice/mock/CustomKafkaAvroSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/order-service/src/test/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/dynamo-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/dynamo-services/customer-orders-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/InventoryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/caching/boot/SimpleCacheCustomizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/config/APIConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/config/DynamoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/controllers/ProductsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/dto/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/dto/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/handler/APIFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/handler/CustomServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/java/org/mddarr/inventoryservice/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/test/java/org/mddarr/inventoryservice/AbstractIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/test/java/org/mddarr/inventoryservice/InventoryServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/inventory-service/src/test/java/org/mddarr/inventoryservice/ProductsServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/service-utilities.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/src/main/java/org/mddarr/utils/DataUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/src/main/java/org/mddarr/utils/DynamoUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/classes/org/mddarr/utils/DataUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/classes/org/mddarr/utils/DynamoUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../microservices/service-utilities/target/service-utilities-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

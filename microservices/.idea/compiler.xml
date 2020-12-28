@@ -6,22 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="products-query-service" />
+        <module name="orders-service" />
         <module name="customer-orders-service" />
+        <module name="avro-schema" />
+        <module name="inventory-service" />
+        <module name="service-utilities" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="avro-schema" target="1.8" />
+      <module name="cassandra-services" target="1.8" />
       <module name="customer-orders-service" target="11" />
+      <module name="dynamo-services" target="1.8" />
       <module name="inventory-service" target="11" />
       <module name="microservices" target="11" />
       <module name="order-service" target="1.8" />
       <module name="orders-service" target="11" />
+      <module name="product-query--service" target="11" />
       <module name="products-query-service" target="11" />
       <module name="ride-receiver" target="11" />
       <module name="ride-service" target="11" />
-      <module name="rides-avro-schema" target="1.8" />
-      <module name="rides-services" target="1.8" />
       <module name="service-utilities" target="11" />
       <module name="services" target="11" />
     </bytecodeTargetLevel>
@@ -33,10 +37,10 @@
       <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="orders-service" options="-parameters" />
+      <module name="product-query--service" options="-parameters" />
       <module name="products-query-service" options="-parameters" />
       <module name="ride-receiver" options="-parameters" />
       <module name="ride-service" options="-parameters" />
-      <module name="rides-avro-schema" options="-parameters" />
       <module name="service-utilities" options="-parameters" />
       <module name="services" options="-parameters" />
     </option>

@@ -11,7 +11,7 @@ from boto3.dynamodb.types import Decimal
 from time import sleep
 
 
-def insert_product(product):
+def insert_product(product, table):
     return table.put_item(
         Item={
             'vendor': product['vendor'],
@@ -115,12 +115,69 @@ def create_categories_table():
         print(e)
 
 
-if __name__ == '__main__':
-    # dynamodb = boto3.resource('dynamodb',endpoint_url="http://localhost:4566")
-    dynamodb = boto3.resource('dynamodb', endpoint_url="http://localhost:8000")
-    create_products_table()
-    create_categories_table()
-    sleep(5)
+
+def insert_order(order, table):
+    return table.put_item(
+        Item={
+            'orderID': order['orderID'],
+            'customerID': order['customerID'],
+            'vendors': order['vendors'],
+            'products': order['products'],
+            'order_status': order['order_status']
+        }
+    )
+
+
+def create_orders_table():
+    try:
+        resp = dynamodb.create_table(
+
+            TableName="Orders",
+
+            AttributeDefinitions=[
+                {
+                    "AttributeName": "customerID",
+                    "AttributeType": "S"
+                },
+                {
+                    "AttributeName": "orderID",
+                    "AttributeType": "S"
+                },
+
+            ],
+
+            KeySchema=[
+                {
+                    "AttributeName": "customerID",
+                    "KeyType": "HASH"
+                },
+                {
+                    "AttributeName": "orderID",
+                    "KeyType": "RANGE"
+                }
+            ],
+            ProvisionedThroughput={
+                "ReadCapacityUnits": 1,
+                "WriteCapacityUnits": 1
+            },
+        )
+        return resp
+    except Exception as e:
+        print(e)
+
+
+def populate_orders():
+    table = dynamodb.Table('Orders')
+
+    with open('data/orders.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            insert_order(row, table)
+
+
+def populate_products():
+
+    # sleep(5)
     table = dynamodb.Table('Products')
 
     CSV_DIRECTORY = 'data/products'
@@ -134,8 +191,9 @@ if __name__ == '__main__':
         with open(file, newline='') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
-                insert_product(row)
+                insert_product(row, table)
 
+def populate_categories():
     table = dynamodb.Table('Categories')
 
     categories = [('mens-boots', 'boots', 'M'),('day-packs', 'backpacks',''),('backpacking-packs','backpacks',''), ('womens-running-jackets', 'jackets','W') , ('womens-rain-jackets', 'jackets', 'w'),
@@ -154,3 +212,15 @@ if __name__ == '__main__':
             }
         )
 
+if __name__ == '__main__':
+    # dynamodb = boto3.resource('dynamodb',endpoint_url="http://localhost:4566")
+    dynamodb = boto3.resource('dynamodb', endpoint_url="http://localhost:8000")
+    # create_products_table()
+    # create_categories_table()
+    # populate_products()
+    # populate_categories()
+    # create_orders_table()
+    populate_orders()
+    # products_table = dynamodb.Table('Products')
+    # populate_products()
+    # # populate_orders()
