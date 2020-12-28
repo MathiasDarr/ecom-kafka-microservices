@@ -1,7 +1,0 @@
-org/mddarr/rideservice/mock/CustomKafkaAvroDeserializer.class
-org/mddarr/rideservice/event/MessageProducerTest.class
-org/mddarr/rideservice/UatAbstractTest.class
-org/mddarr/rideservice/IntegrationTest.class
-org/mddarr/rideservice/mock/CustomKafkaAvroDeserializer$1.class
-org/mddarr/rideservice/event/MessageReceiverTest.class
-org/mddarr/rideservice/mock/CustomKafkaAvroSerializer.class

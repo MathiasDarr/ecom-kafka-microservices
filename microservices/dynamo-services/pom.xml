@@ -17,12 +17,13 @@
     <version>1.0-SNAPSHOT</version>
     
     <modules>
-        <module>customer-orders-service</module>
-<!--        <module>product-query-service</module>-->
+<!--        <module>customer-orders-service</module>-->
+        <module>inventory-service</module>
         <module>service-utilities</module>
         <module>avro-schema</module>
-
     </modules>
+
+
     <repositories>
         <repository>
             <id>confluent</id>

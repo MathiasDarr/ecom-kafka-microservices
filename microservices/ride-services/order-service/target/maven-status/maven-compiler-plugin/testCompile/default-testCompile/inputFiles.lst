@@ -1,6 +1,0 @@
-/data/mddarr/repositories/ecomm_microservices/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/IntegrationTest.java
-/data/mddarr/repositories/ecomm_microservices/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/mock/CustomKafkaAvroDeserializer.java
-/data/mddarr/repositories/ecomm_microservices/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/event/MessageReceiverTest.java
-/data/mddarr/repositories/ecomm_microservices/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/mock/CustomKafkaAvroSerializer.java
-/data/mddarr/repositories/ecomm_microservices/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/event/MessageProducerTest.java
-/data/mddarr/repositories/ecomm_microservices/microservices/ride-services/order-service/src/test/java/org/mddarr/rideservice/UatAbstractTest.java
