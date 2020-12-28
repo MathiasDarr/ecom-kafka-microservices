@@ -6,16 +6,13 @@ import com.amazonaws.services.dynamodbv2.model.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.mddarr.ordersservice.dto.Order;
-import org.mddarr.ordersservice.dto.OrderRequest;
+import org.mddarr.ordersservice.models.Order;
+import org.mddarr.ordersservice.models.OrderRequest;
 
-import org.mddarr.utils.DynamoUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import java.io.IOException;
 import java.util.*;
 
 @Repository
@@ -81,8 +78,8 @@ public class OrderRepository {
     public Order put(OrderRequest order) {
         String orderID = UUID.randomUUID().toString();
         long creationDate = System.currentTimeMillis();
-        mapper.save(new OrderEntity(orderID, creationDate, order.getCustomerID(), order.getProductBrands(), order.getProductsNames(),order.getQuantities(),order.getPrices(), "PENDING"));
-        return new Order(orderID, creationDate, order.getCustomerID(), order.getProductBrands(), order.getProductsNames(),order.getQuantities(),order.getPrices(), "PENDING");
+        mapper.save(new OrderEntity(orderID, creationDate, order.getCustomerID(), order.getVendors(), order.getProducts(),order.getQuantities(), "PENDING"));
+        return new Order(orderID, creationDate, order.getCustomerID(), order.getVendors(), order.getProducts(),order.getQuantities(), "PENDING");
     }
 
     public Optional<OrderEntity> get(String orderID, long creationDate) {
@@ -106,16 +103,15 @@ public class OrderRepository {
         private long orderCreationDate;
         @DynamoDBIndexHashKey(globalSecondaryIndexName = "customerOrderIndex", attributeName = "customerID")
         private String customerID;
-        @DynamoDBAttribute(attributeName="brands")
-        private List<String> brands;
+        @DynamoDBAttribute(attributeName="vendors")
+        private List<String> vendors;
         @DynamoDBAttribute(attributeName="products")
         private List<String> products;
         @DynamoDBAttribute(attributeName="quantities")
         private List<Long> quantities;
-        @DynamoDBAttribute(attributeName="prices")
-        private List<Double> prices;
-        @DynamoDBAttribute(attributeName="orderState")
-        private String orderState;
+
+        @DynamoDBAttribute(attributeName="order_status")
+        private String order_status;
 
         public OrderEntity(String orderID, long creationDate){
             this.orderID = orderID;

@@ -14,7 +14,7 @@
 //import java.util.List;
 //import java.util.Optional;
 //
-////import org.mddarr.ordersservice.dto.Order;
+////import org.mddarr.ordersservice.models.Order;
 //
 //
 //public class OrderRepositoryTest extends AbstractIntegrationTest{

@@ -3,15 +3,13 @@ package org.mddarr.ordersservice.services;
 
 import lombok.RequiredArgsConstructor;
 
-import org.mddarr.ordersservice.dto.Order;
-import org.mddarr.ordersservice.dto.OrderRequest;
+import org.mddarr.ordersservice.models.Order;
+import org.mddarr.ordersservice.models.OrderRequest;
 import org.mddarr.ordersservice.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Service
@@ -68,7 +66,7 @@ public class OrdersService {
 //    }
 
     private static Order map(OrderRepository.OrderEntity entity) {
-        return new Order(entity.getOrderID(), entity.getOrderCreationDate(), entity.getCustomerID(), entity.getBrands(), entity.getProducts(), entity.getQuantities(), entity.getPrices(), entity.getOrderState());
+        return new Order(entity.getOrderID(), entity.getOrderCreationDate(), entity.getCustomerID(), entity.getVendors(), entity.getProducts(), entity.getQuantities(), entity.getOrder_status());
     }
 
 }

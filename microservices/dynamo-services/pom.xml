@@ -18,8 +18,8 @@
     
     <modules>
         <module>customer-orders-service</module>
-        <module>product-query-service</module>
-<!--        <module>service-utilities</module>-->
+<!--        <module>product-query-service</module>-->
+        <module>service-utilities</module>
         <module>avro-schema</module>
 
     </modules>

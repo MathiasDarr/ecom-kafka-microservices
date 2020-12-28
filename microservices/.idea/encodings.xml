@@ -5,8 +5,11 @@
     <file url="file://$PROJECT_DIR$/cassandra-services/inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cassandra-services/order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cassandra-services/products-query-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamo-services/avro-schema/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dynamo-services/customer-orders-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamo-services/customer-orders-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dynamo-services/product-query-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dynamo-services/product-query-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dynamo-services/service-utilities/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orders-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ride-services/inventory-service/src/main/java" charset="UTF-8" />

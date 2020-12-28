@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.mddarr</groupId>
-	<artifactId>orders-service</artifactId>
+	<artifactId>customer-orders-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>orders-service</name>
+	<name>customer-orders-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

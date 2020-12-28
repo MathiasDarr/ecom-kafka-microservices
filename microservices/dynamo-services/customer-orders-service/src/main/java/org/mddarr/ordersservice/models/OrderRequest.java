@@ -1,4 +1,4 @@
-package org.mddarr.ordersservice.dto;
+package org.mddarr.ordersservice.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,8 +11,8 @@ import java.util.List;
 @NoArgsConstructor
 public class OrderRequest {
     String customerID;
-    List<String> productBrands;
-    List<String> productsNames;
+    List<String> vendors;
+    List<String> products;
     List<Long> quantities;
-    List<Double> prices;
+
 }

@@ -23,7 +23,7 @@ public class InventoryServiceApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/categories").allowedOrigins("http://localhost:8080");
+				registry.addMapping("/products").allowedOrigins("http://localhost:8080");
 			}
 		};
 	}

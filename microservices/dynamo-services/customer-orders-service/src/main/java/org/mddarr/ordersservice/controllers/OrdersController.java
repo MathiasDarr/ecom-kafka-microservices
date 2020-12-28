@@ -3,8 +3,8 @@ package org.mddarr.ordersservice.controllers;
 
 import lombok.RequiredArgsConstructor;
 
-import org.mddarr.ordersservice.dto.Order;
-import org.mddarr.ordersservice.dto.OrderRequest;
+import org.mddarr.ordersservice.models.Order;
+import org.mddarr.ordersservice.models.OrderRequest;
 import org.mddarr.ordersservice.services.OrdersService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
