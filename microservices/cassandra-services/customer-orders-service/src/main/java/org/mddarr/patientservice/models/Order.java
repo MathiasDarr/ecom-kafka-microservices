@@ -9,6 +9,8 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.PrimaryKeyColumn;
 import org.springframework.data.cassandra.core.mapping.Table;
 
+import java.util.List;
+
 @Table("orders")
 @Data
 @NoArgsConstructor
@@ -22,37 +24,66 @@ public class Order {
     @PrimaryKeyColumn(name="customerid",ordinal = 1,type = PrimaryKeyType.PARTITIONED)
     private String customerid;
 
+    @Column("quantities") private List<Integer> quantities;
+    @Column("products") private List<String> products;
+    @Column("vendors") private List<String> vendors;
+    @Column("order_status") private String order_status;
+    @Column("total_price") private Double total_price;
 
+    public String getOrderID() {
+        return orderID;
+    }
 
+    public void setOrderID(String orderID) {
+        this.orderID = orderID;
+    }
 
-//    @Column("last_name") private String last_name;
-//
-//    public Order(String id) {
-//        this.setId(id);
-//    }
-//
-//    public String getId() {
-//        return patient_id;
-//    }
-//
-//    public void setId(String id) {
-//        this.patient_id = id;
-//    }
-//
-//    public String getFirst_name() {
-//        return first_name;
-//    }
-//
-//    public void setFirst_name(String first_name) {
-//        this.first_name = first_name;
-//    }
-//
-//    public String getLast_name() {
-//        return last_name;
-//    }
-//
-//    public void setLast_name(String last_name) {
-//        this.last_name = last_name;
-//    }
+    public String getCustomerid() {
+        return customerid;
+    }
+
+    public void setCustomerid(String customerid) {
+        this.customerid = customerid;
+    }
+
+    public List<Integer> getQuantities() {
+        return quantities;
+    }
+
+    public void setQuantities(List<Integer> quantities) {
+        this.quantities = quantities;
+    }
+
+    public List<String> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<String> products) {
+        this.products = products;
+    }
+
+    public List<String> getVendors() {
+        return vendors;
+    }
+
+    public void setVendors(List<String> vendors) {
+        this.vendors = vendors;
+    }
+
+    public String getOrder_status() {
+        return order_status;
+    }
+
+    public void setOrder_status(String order_status) {
+        this.order_status = order_status;
+    }
+
+    public Double getTotal_price() {
+        return total_price;
+    }
+
+    public void setTotal_price(Double total_price) {
+        this.total_price = total_price;
+    }
 }
 

@@ -18,7 +18,6 @@ public class OrdersService implements OrderServiceInterface {
         this.cassandraTemplate = cassandraTemplate;
     }
 
-
     @Override
     public List<Order> getOrders() {
         return orderRepository.findAll();

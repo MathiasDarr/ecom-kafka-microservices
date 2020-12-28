@@ -17,10 +17,8 @@
     <version>1.0-SNAPSHOT</version>
     
     <modules>
-<!--        <module>order-service</module>-->
-<!--        <module>inventory-service</module>-->
-<!--        <module>avro-schema</module>-->
-        <module>customer-orders-service</module>
+        <module>products-query-service</module>
+<!--        <module>products-query-service</module>-->
     </modules>
     <repositories>
         <repository>

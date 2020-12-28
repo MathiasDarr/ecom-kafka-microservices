@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cassandra-services/customer-orders-service/customer-orders-service.iml" filepath="$PROJECT_DIR$/cassandra-services/customer-orders-service/customer-orders-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cassandra-services/products-query-service/products-query-service.iml" filepath="$PROJECT_DIR$/cassandra-services/products-query-service/products-query-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cassandra-services/rides-services.iml" filepath="$PROJECT_DIR$/cassandra-services/rides-services.iml" />
     </modules>
   </component>
