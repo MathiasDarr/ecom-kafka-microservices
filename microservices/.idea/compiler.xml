@@ -18,7 +18,7 @@
       <module name="order-service" target="1.8" />
       <module name="orders-service" target="11" />
       <module name="ride-receiver" target="11" />
-      <module name="ride-service" target="1.8" />
+      <module name="ride-service" target="11" />
       <module name="rides-avro-schema" target="1.8" />
       <module name="rides-services" target="1.8" />
       <module name="service-utilities" target="11" />
