@@ -1,13 +1,13 @@
 package org.mddarr.rides.request.service.mock;
 
+import org.mddarr.orders.event.dto.AvroOrder;
 import org.mddarr.rides.request.service.Constants;
 
 import io.confluent.kafka.schemaregistry.client.MockSchemaRegistryClient;
 import io.confluent.kafka.schemaregistry.client.SchemaRegistryClient;
 import io.confluent.kafka.serializers.KafkaAvroDeserializer;
 import org.apache.avro.Schema;
-import org.mddarr.rides.event.dto.AvroRideRequest;
-import org.mddarr.rides.event.dto.Event3;
+
 
 
 /**
@@ -16,12 +16,8 @@ import org.mddarr.rides.event.dto.Event3;
 public class CustomKafkaAvroDeserializer extends KafkaAvroDeserializer {
     @Override
     public Object deserialize(String topic, byte[] bytes) {
-        if (topic.equals(Constants.Rides_TOPIC)) {
-            this.schemaRegistry = getMockClient(AvroRideRequest.SCHEMA$);
-        }
-
-        if (topic.equals(Constants.EVENT_3_TOPIC)) {
-            this.schemaRegistry = getMockClient(Event3.SCHEMA$);
+        if (topic.equals(Constants.ORDER_TOPIC)) {
+            this.schemaRegistry = getMockClient(AvroOrder.SCHEMA$);
         }
 
         return super.deserialize(topic, bytes);

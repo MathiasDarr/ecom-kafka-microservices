@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="customer-orders-service" />
         <module name="avro-schema" />
+        <module name="orders-request-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
