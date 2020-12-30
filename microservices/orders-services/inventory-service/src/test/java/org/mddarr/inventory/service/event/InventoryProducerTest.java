@@ -17,18 +17,18 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class OrdersProducerTest extends UatAbstractTest {
+public class InventoryProducerTest extends UatAbstractTest {
 
     @Autowired
     private AvroOrderRequestProducer avroRideRequestProducer;
 
     @Test
-    public void should_send_order_request_to_kafka() {
+    public void should_send_inventory_message_to_kafka() {
         List<String> products = new ArrayList(Arrays.asList("BackPack", "Jacket"));
         List<String> vendors = new ArrayList(Arrays.asList("Osprey", "North Face"));
         List<Long> quantities = new ArrayList<>(Arrays.asList(1L, 2L));
         avroRideRequestProducer.sendRideRequest(new OrderRequest("customer1", vendors, products, quantities));
-        ConsumerRecord<String, AvroOrder> singleRecord = KafkaTestUtils.getSingleRecord(ordersConsumer, Constants.ORDER_TOPIC);
+        ConsumerRecord<String, AvroOrder> singleRecord = KafkaTestUtils.getSingleRecord(ordersConsumer, Constants.INVENTORY);
         assertThat(singleRecord).isNotNull();
     }
 }

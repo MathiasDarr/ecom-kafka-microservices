@@ -26,7 +26,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.HashMap;
 import java.util.Map;
 
-@SpringBootTest(classes = {OrderRequestApplication.class}, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+@SpringBootTest(classes = {InventoryServiceApplication.class}, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 @RunWith(SpringRunner.class)
 @Category(IntegrationTest.class)
 @EmbeddedKafka()
@@ -61,7 +61,7 @@ public abstract class UatAbstractTest {
         kafkaProperties.buildConsumerProperties();
 
 
-        ordersConsumer.subscribe(Lists.newArrayList(Constants.ORDER_TOPIC));
+        ordersConsumer.subscribe(Lists.newArrayList(Constants.INVENTORY));
 
     }
 

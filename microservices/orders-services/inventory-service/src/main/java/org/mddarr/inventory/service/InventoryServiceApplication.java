@@ -8,13 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.annotation.PostConstruct;
 
 @SpringBootApplication
-public class OrderRequestApplication {
+public class InventoryServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OrderRequestApplication.class, args);
+        SpringApplication.run(InventoryServiceApplication.class, args);
     }
 
-    private static final Logger logger = LoggerFactory.getLogger(OrderRequestApplication.class);
+    private static final Logger logger = LoggerFactory.getLogger(InventoryServiceApplication.class);
 
     @PostConstruct
     public void postInit() {

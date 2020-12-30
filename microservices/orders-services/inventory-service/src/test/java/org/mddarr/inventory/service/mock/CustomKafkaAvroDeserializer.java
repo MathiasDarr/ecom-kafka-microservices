@@ -16,7 +16,7 @@ import org.apache.avro.Schema;
 public class CustomKafkaAvroDeserializer extends KafkaAvroDeserializer {
     @Override
     public Object deserialize(String topic, byte[] bytes) {
-        if (topic.equals(Constants.ORDER_TOPIC)) {
+        if (topic.equals(Constants.INVENTORY)) {
             this.schemaRegistry = getMockClient(AvroOrder.SCHEMA$);
         }
 

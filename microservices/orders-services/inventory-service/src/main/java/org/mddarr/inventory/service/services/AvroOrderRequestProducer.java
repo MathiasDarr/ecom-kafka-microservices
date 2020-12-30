@@ -35,7 +35,7 @@ public class AvroOrderRequestProducer implements AvroOrderRequestInterface {
                 .setState(OrderState.PENDING)
                 .build();
         logger.info("Send order {}", order);
-        kafkaTemplateEvent1.send(Constants.ORDER_TOPIC, order);
+        kafkaTemplateEvent1.send(Constants.INVENTORY, order);
     }
 
 }
