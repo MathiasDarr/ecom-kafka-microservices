@@ -18,7 +18,7 @@
     <version>1.0-SNAPSHOT</version>
     
     <modules>
-        <module>drivers-service</module>
+        <module>inventory-service</module>
 <!--        <module>event-producer</module>-->
 <!--        <module>orders-request-service</module>-->
 <!--        <module>ride-coordinate-service</module>-->

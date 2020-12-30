@@ -1,12 +1,12 @@
-package org.mddarr.driversservice.producers;
+package org.mddarr.inventory.service.producers;
 
-import org.mddarr.driversservice.services.AvroDriverProducer;
+import org.mddarr.inventory.service.services.AvroProductProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class DriverProducer {
 
     @Autowired
-    private AvroDriverProducer avroDriverProducer;
+    private AvroProductProducer avroDriverProducer;
     public static void main(String[] args) {
 
     }

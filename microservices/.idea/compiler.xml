@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="customer-orders-service" />
         <module name="avro-schema" />
-        <module name="drivers-service" />
+        <module name="inventory-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,7 +16,6 @@
       <module name="cassandra-services" target="1.8" />
       <module name="customer-orders-service" target="11" />
       <module name="distpatch-service" target="11" />
-      <module name="drivers-service" target="1.5" />
       <module name="dynamo-services" target="1.8" />
       <module name="event-producer" target="11" />
       <module name="inventory-service" target="11" />
@@ -40,7 +39,6 @@
       <module name="avro-schema" options="-parameters" />
       <module name="customer-orders-service" options="-parameters" />
       <module name="distpatch-service" options="-parameters" />
-      <module name="drivers-service" options="-parameters" />
       <module name="event-producer" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
       <module name="order-service" options="-parameters" />

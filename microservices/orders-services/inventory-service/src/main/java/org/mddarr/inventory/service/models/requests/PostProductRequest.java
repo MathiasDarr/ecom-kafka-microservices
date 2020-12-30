@@ -1,11 +1,11 @@
-package org.mddarr.driversservice.models.requests;
+package org.mddarr.inventory.service.models.requests;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-public class PostDriverRequest {
+public class PostProductRequest {
 
     private String first_name;
     private String last_name;

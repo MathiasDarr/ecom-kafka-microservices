@@ -11,8 +11,8 @@
     <file url="file://$PROJECT_DIR$/dynamo-services/inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dynamo-services/service-utilities/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orders-services/dispatch-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/orders-services/drivers-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orders-services/event-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orders-services/inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/orders-services/orders-request-service/src/main/java" charset="UTF-8" />
   </component>
 </project>
