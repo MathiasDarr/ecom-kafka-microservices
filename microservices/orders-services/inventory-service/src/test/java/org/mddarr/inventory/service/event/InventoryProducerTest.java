@@ -26,7 +26,7 @@ public class InventoryProducerTest extends UatAbstractTest {
     @Test
     public void should_send_inventory_message_to_kafka() {
         avroRideRequestProducer.sendRideRequest(new ProductMessage("Osprey", "Backpack", 12.0, 120L));
-//        ConsumerRecord<String, AvroProduct> singleRecord = KafkaTestUtils.getSingleRecord(ordersConsumer, Constants.INVENTORY);
-//        assertThat(singleRecord).isNotNull();
+        ConsumerRecord<String, AvroProduct> singleRecord = KafkaTestUtils.getSingleRecord(ordersConsumer, Constants.INVENTORY);
+        assertThat(singleRecord).isNotNull();
     }
 }
