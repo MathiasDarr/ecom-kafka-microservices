@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/orders-services/avro-schema/avro-schema.iml" filepath="$PROJECT_DIR$/orders-services/avro-schema/avro-schema.iml" />
       <module fileurl="file://$PROJECT_DIR$/cassandra-services/customer-orders-service/customer-orders-service.iml" filepath="$PROJECT_DIR$/cassandra-services/customer-orders-service/customer-orders-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders-services/inventory-service/inventory-service.iml" filepath="$PROJECT_DIR$/orders-services/inventory-service/inventory-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
-      <module fileurl="file://$PROJECT_DIR$/orders-services/orders-request-service/orders-request-service.iml" filepath="$PROJECT_DIR$/orders-services/orders-request-service/orders-request-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/orders-services/orders-services.iml" filepath="$PROJECT_DIR$/orders-services/orders-services.iml" />
     </modules>
   </component>

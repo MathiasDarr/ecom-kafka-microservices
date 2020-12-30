@@ -1,13 +1,13 @@
-package org.mddarr.orders.request.service.event;
+package org.mddarr.inventory.service.event;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.junit.Test;
+import org.mddarr.inventory.service.Constants;
+import org.mddarr.inventory.service.UatAbstractTest;
+import org.mddarr.inventory.service.models.OrderRequest;
+import org.mddarr.inventory.service.services.AvroOrderRequestProducer;
 import org.mddarr.orders.event.dto.AvroOrder;
-import org.mddarr.orders.request.service.Constants;
-import org.mddarr.orders.request.service.UatAbstractTest;
 
-import org.mddarr.orders.request.service.models.OrderRequest;
-import org.mddarr.orders.request.service.services.AvroOrderRequestProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.test.utils.KafkaTestUtils;
 

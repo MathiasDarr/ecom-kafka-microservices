@@ -1,4 +1,4 @@
-package org.mddarr.orders.request.service.mock;
+package org.mddarr.inventory.service.mock;
 
 import io.confluent.kafka.schemaregistry.client.MockSchemaRegistryClient;
 import io.confluent.kafka.schemaregistry.client.SchemaRegistryClient;

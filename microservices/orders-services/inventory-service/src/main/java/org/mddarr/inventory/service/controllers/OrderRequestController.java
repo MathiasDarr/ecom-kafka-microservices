@@ -1,9 +1,9 @@
-package org.mddarr.orders.request.service.controllers;
+package org.mddarr.inventory.service.controllers;
 
 
 
-import org.mddarr.orders.request.service.models.OrderRequest;
-import org.mddarr.orders.request.service.services.AvroOrderRequestProducer;
+import org.mddarr.inventory.service.models.OrderRequest;
+import org.mddarr.inventory.service.services.AvroOrderRequestProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;

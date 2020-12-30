@@ -1,8 +1,8 @@
-package org.mddarr.orders.request.service;
+package org.mddarr.inventory.service;
 
 
 import org.mddarr.orders.event.dto.AvroOrder;
-import org.mddarr.orders.request.service.mock.CustomKafkaAvroDeserializer;
+import org.mddarr.inventory.service.mock.CustomKafkaAvroDeserializer;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -26,7 +26,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.HashMap;
 import java.util.Map;
 
-@SpringBootTest(classes = {RideRequestApplication.class}, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+@SpringBootTest(classes = {OrderRequestApplication.class}, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 @RunWith(SpringRunner.class)
 @Category(IntegrationTest.class)
 @EmbeddedKafka()

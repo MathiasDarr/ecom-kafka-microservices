@@ -1,4 +1,4 @@
-package org.mddarr.orders.request.service;
+package org.mddarr.inventory.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,16 +8,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.annotation.PostConstruct;
 
 @SpringBootApplication
-public class RideRequestApplication {
+public class OrderRequestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RideRequestApplication.class, args);
+        SpringApplication.run(OrderRequestApplication.class, args);
     }
 
-    private static final Logger logger = LoggerFactory.getLogger(RideRequestApplication.class);
+    private static final Logger logger = LoggerFactory.getLogger(OrderRequestApplication.class);
 
     @PostConstruct
     public void postInit() {
-        logger.info("Application ShowcaseApp started!");
+        logger.info("Application started!");
     }
 }

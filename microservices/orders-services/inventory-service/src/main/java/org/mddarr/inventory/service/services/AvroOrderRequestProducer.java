@@ -1,10 +1,10 @@
-package org.mddarr.orders.request.service.services;
+package org.mddarr.inventory.service.services;
 
 
+import org.mddarr.inventory.service.Constants;
+import org.mddarr.inventory.service.models.OrderRequest;
 import org.mddarr.orders.event.dto.AvroOrder;
 import org.mddarr.orders.event.dto.OrderState;
-import org.mddarr.orders.request.service.models.OrderRequest;
-import org.mddarr.orders.request.service.Constants;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

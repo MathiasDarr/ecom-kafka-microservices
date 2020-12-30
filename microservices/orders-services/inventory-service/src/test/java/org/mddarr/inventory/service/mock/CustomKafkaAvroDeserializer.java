@@ -1,7 +1,7 @@
-package org.mddarr.orders.request.service.mock;
+package org.mddarr.inventory.service.mock;
 
+import org.mddarr.inventory.service.Constants;
 import org.mddarr.orders.event.dto.AvroOrder;
-import org.mddarr.orders.request.service.Constants;
 
 import io.confluent.kafka.schemaregistry.client.MockSchemaRegistryClient;
 import io.confluent.kafka.schemaregistry.client.SchemaRegistryClient;

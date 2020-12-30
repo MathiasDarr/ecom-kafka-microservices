@@ -1,4 +1,4 @@
-package org.mddarr.orders.request.service;
+package org.mddarr.inventory.service;
 
 public class Constants {
 
