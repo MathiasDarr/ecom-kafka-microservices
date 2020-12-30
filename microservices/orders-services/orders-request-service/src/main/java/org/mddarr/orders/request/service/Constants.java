@@ -1,4 +1,4 @@
-package org.mddarr.rides.request.service;
+package org.mddarr.orders.request.service;
 
 public class Constants {
 

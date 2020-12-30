@@ -1,4 +1,4 @@
-package org.mddarr.rides.request.service.models;
+package org.mddarr.orders.request.service.models;
 
 
 import lombok.AllArgsConstructor;

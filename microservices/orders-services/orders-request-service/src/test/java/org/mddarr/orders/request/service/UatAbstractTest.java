@@ -1,8 +1,8 @@
-package org.mddarr.rides.request.service;
+package org.mddarr.orders.request.service;
 
 
 import org.mddarr.orders.event.dto.AvroOrder;
-import org.mddarr.rides.request.service.mock.CustomKafkaAvroDeserializer;
+import org.mddarr.orders.request.service.mock.CustomKafkaAvroDeserializer;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.KafkaProducer;
