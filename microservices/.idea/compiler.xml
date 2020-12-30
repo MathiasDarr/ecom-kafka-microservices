@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="orders-request-service" />
         <module name="customer-orders-service" />
         <module name="avro-schema" />
-        <module name="drivers-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
