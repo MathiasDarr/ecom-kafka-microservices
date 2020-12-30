@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/dynamo-services/products-query-service/pom.xml" />
+        <option value="$PROJECT_DIR$/orders_microservices/pom.xml" />
         <option value="$PROJECT_DIR$/services/pom.xml" />
       </set>
     </option>

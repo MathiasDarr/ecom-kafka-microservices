@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3105eeb7-bec1-4284-94ee-b137b72e7d47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cassandra_udt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ride-request-services/streams" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -70,9 +69,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="722" y="446" width="426" height="486" key="FileChooserDialogImpl" timestamp="1606705265700">
+    <state x="372" y="212" width="776" height="720" key="FileChooserDialogImpl" timestamp="1609225971140">
       <screen x="63" y="27" width="1857" height="1053" />
     </state>
-    <state x="722" y="446" width="426" height="486" key="FileChooserDialogImpl/63.27.1857.1053/1920.0.1920.1080@63.27.1857.1053" timestamp="1606705265700" />
+    <state x="372" y="212" width="776" height="720" key="FileChooserDialogImpl/63.27.1857.1053/1920.0.1920.1080@63.27.1857.1053" timestamp="1609225971140" />
   </component>
 </project>
