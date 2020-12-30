@@ -3,8 +3,8 @@
  "name": "AvroProduct",
  "fields": [
      {"name": "vendor", "type": "string"},
-     {"name": "name",   "type": "string"},
+     {"name": "product",   "type": "string"},
      {"name": "price",  "type": "double"},
-     {"name": "stock",  "type": "long"}
+     {"name": "inventory",  "type": "long"}
  ]
 }

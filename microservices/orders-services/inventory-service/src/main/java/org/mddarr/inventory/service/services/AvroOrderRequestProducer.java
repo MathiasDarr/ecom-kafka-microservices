@@ -2,10 +2,11 @@ package org.mddarr.inventory.service.services;
 
 
 import org.mddarr.inventory.service.Constants;
-import org.mddarr.inventory.service.models.OrderRequest;
+import org.mddarr.inventory.service.models.ProductMessage;
 import org.mddarr.orders.event.dto.AvroOrder;
 import org.mddarr.orders.event.dto.OrderState;
 
+import org.mddarr.products.AvroProduct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,23 +20,20 @@ import java.util.UUID;
 public class AvroOrderRequestProducer implements AvroOrderRequestInterface {
 
     @Autowired
-    private KafkaTemplate<String, AvroOrder> kafkaTemplateEvent1;
+    private KafkaTemplate<String, AvroProduct> kafkaTemplateEvent1;
 
     private static final Logger logger = LoggerFactory.getLogger(AvroOrderRequestProducer.class);
 
-    public void sendRideRequest(OrderRequest orderRequest) {
+    public void sendRideRequest(ProductMessage productMessage) {
 
-        AvroOrder order = AvroOrder.newBuilder()
-                .setId(UUID.randomUUID().toString())
-                .setCustomerId(orderRequest.getCustomerID())
+        AvroProduct product = AvroProduct.newBuilder()
+                .setVendor(productMessage.getVendor())
+                .setProduct(productMessage.getProduct())
                 .setPrice(12.2)
-                .setProducts(orderRequest.getProducts())
-                .setVendors(orderRequest.getVendors())
-                .setQuantites(orderRequest.getQuantities())
-                .setState(OrderState.PENDING)
+                .setInventory(productMessage.getInventory())
                 .build();
-        logger.info("Send order {}", order);
-        kafkaTemplateEvent1.send(Constants.INVENTORY, order);
+        logger.info("Send product to kafka  {}", product);
+        kafkaTemplateEvent1.send(Constants.INVENTORY, product);
     }
 
 }

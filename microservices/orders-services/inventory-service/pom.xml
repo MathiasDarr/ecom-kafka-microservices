@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>orders-request-service</artifactId>
+    <artifactId>inventory-service</artifactId>
     <dependencies>
 
         <dependency>

@@ -14,6 +14,7 @@ import org.junit.experimental.categories.Category;
 import org.junit.runner.RunWith;
 
 
+import org.mddarr.products.AvroProduct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -35,8 +36,8 @@ public abstract class UatAbstractTest {
     private KafkaProperties kafkaProperties;
     @Autowired
     private EmbeddedKafkaBroker kafkaEmbedded;
-    protected Producer<String, AvroOrder> orderProducer;
-    protected Consumer<String, AvroOrder> ordersConsumer;
+    protected Producer<String, AvroProduct> orderProducer;
+    protected Consumer<String, AvroProduct> ordersConsumer;
 
 
 
@@ -56,7 +57,7 @@ public abstract class UatAbstractTest {
         configs.put("schema.registry.url", "not-used");
 
 
-        ordersConsumer = new DefaultKafkaConsumerFactory<String, AvroOrder>(configs).createConsumer("in-test-consumer", "10");
+        ordersConsumer = new DefaultKafkaConsumerFactory<String, AvroProduct>(configs).createConsumer("in-test-consumer", "10");
 
         kafkaProperties.buildConsumerProperties();
 

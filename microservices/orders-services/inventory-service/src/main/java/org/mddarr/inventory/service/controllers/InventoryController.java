@@ -2,7 +2,7 @@ package org.mddarr.inventory.service.controllers;
 
 
 
-import org.mddarr.inventory.service.models.OrderRequest;
+import org.mddarr.inventory.service.models.ProductMessage;
 import org.mddarr.inventory.service.services.AvroOrderRequestProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class OrderRequestController {
+public class InventoryController {
 
     @Autowired
     AvroOrderRequestProducer avroRideRequestProducer;
 
-    @PutMapping("orders/requests")
-    public String postOrdersRequest(@RequestBody OrderRequest orderRequest){
-        avroRideRequestProducer.sendRideRequest(orderRequest);
+    @PutMapping("inventory/post")
+    public String postOrdersRequest(@RequestBody ProductMessage productMessage){
+        avroRideRequestProducer.sendRideRequest(productMessage);
         return "dfd";
     }
 
